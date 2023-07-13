@@ -1,14 +1,21 @@
 .App {
-  text-align: center;
+  color: white;
+  background-color: #282c34;
 }
 
 .App-header {
   background-color: #282c34;
   min-height: 6rem;
   display: flex;
-  flex-direction: column;
+  text-align: center;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.sidebar{
+  display: flex;
+  flex-direction: column;
 }
