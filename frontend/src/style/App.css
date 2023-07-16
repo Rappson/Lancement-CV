@@ -14,8 +14,3 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.sidebar{
-  display: flex;
-  flex-direction: column;
-}

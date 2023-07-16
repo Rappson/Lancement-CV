@@ -8,8 +8,11 @@ function Header() {
       </header>
       <div className='main'>
         <div className='sidebar'>
-          <ul>
+          <ul className="main-menu d-flex flex-row justify-content-evenly">
             <li>Présentation</li>
+            <li>Expériences</li>
+            <li>A propos de moi</li>
+            <li>Commentaires</li>
           </ul>
         </div>
       </div>
