@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './style/index.css';
-import App from './components/homepage/App';
+import Header from './components/homepage/Header';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Header />
   </React.StrictMode>
 );
 
