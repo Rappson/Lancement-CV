@@ -2,10 +2,10 @@ import '../../style/App.css';
 
 function Header() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <header className="App">
+      <div className="title-container">
         <h1 className='title'>Mon super site</h1>
-      </header>
+      </div>
       <div className='main'>
         <div className='sidebar'>
           <ul className="main-menu d-flex flex-row justify-content-evenly">
@@ -16,7 +16,7 @@ function Header() {
           </ul>
         </div>
       </div>
-    </div>
+    </header>
   );
 }
 
