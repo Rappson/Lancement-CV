@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className='title'>Mon super CV</h1>
+        <h1 className='title'>Mon super site</h1>
       </header>
       <div className='main'>
         <div className='sidebar'>
