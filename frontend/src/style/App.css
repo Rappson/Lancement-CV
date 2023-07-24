@@ -3,7 +3,7 @@ body{
   margin: 0;
 }
 
-.App {
+header & footer {
   color: white;
   background-color: #282c34;
 }
