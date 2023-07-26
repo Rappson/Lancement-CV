@@ -1,4 +1,6 @@
 import '../../style/App.css';
+import Sidebar from './Sidebar';
+import { BrowserRouter as Router, Route, Routes as Switch } from 'react-router-dom';
 
 function Header() {
   return (
@@ -6,16 +8,11 @@ function Header() {
       <div className="title-container">
         <h1 className='title'>Mon super site</h1>
       </div>
-      <div className='container'>
-        <div className='sidebar row'>
-          <ul className="main-menu row">
-            <li className='col-3'>Présentation</li>
-            <li className='col-3'>Expériences</li>
-            <li className='col-3'>A propos de moi</li>
-            <li className='col-3'>Commentaires</li>
-          </ul>
-        </div>
-      </div>
+      <Router>
+        <Switch>
+          <Route exact path='/' Component={Sidebar} />
+        </Switch>
+      </Router>
     </header>
   );
 }
